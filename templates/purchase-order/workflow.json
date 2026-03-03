@@ -1,0 +1,1 @@
+{"name":"Purchase Order Approval","version":1,"steps":[{"type":"user_task","name":"create_request"},{"type":"gateway","name":"check_budget"},{"type":"user_task","name":"manager_approval"},{"type":"service_task","name":"create_po_in_sap","implementation":"sap-connector"},{"type":"service_task","name":"notify_vendor","implementation":"email-connector"}]}

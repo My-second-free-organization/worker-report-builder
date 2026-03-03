@@ -1,0 +1,1 @@
+{"name":"Data Quality Check","version":1,"steps":[{"type":"service_task","name":"extract_data"},{"type":"service_task","name":"validate_schema"},{"type":"service_task","name":"check_duplicates"},{"type":"gateway","name":"quality_gate"},{"type":"service_task","name":"send_report","implementation":"email-connector"}]}
